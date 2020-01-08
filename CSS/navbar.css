@@ -1,7 +1,7 @@
 body {
     font-size: 28px;
   }
-  
+
   .navbar {
     list-style-type: none;
     margin: 0;
@@ -23,8 +23,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    cursor: -webkit-grab; 
+    cursor: grab;
   }
-  
+
   .navbar li a:hover {
     background-color: #111;
   }
