@@ -10,6 +10,7 @@ If you have any questions, you can contact me at my [school email](mailto:eiriba
 ## Writing code
 
 You can use whichever text editor you prefer as long as it has support for a **.editorconfig** file. You can see a full list of the supported editors at the [EditorConfig project](https://editorconfig.org)'s page.
+
 ***Note**: Please do not forget to install the appropriate plugin if your editor of choice requires one.*
 
 ### HTML Conventions
@@ -98,6 +99,20 @@ To make changes to the project you will need to download and install [git](https
 After you have *git* installed on your system, you need to clone the repository by navigating to the parent directory in which you want the repository to be stored on your system and running `git clone`.
 
 When you are ready to start work, open a new branch by running `git branch` and `git checkout`. Commit your changes often and in an orderly manner and write meaningful commit messages. When you are ready to share your changes, run `git pull` and then `git push`. When you think that the changes in your branch are ready to be merged into the *master* branch, open a *pull request*.
+
 ***Important**: **Always** run `git pull` before `git push`!*
 
-For every operation you wish to do on the remote repository (`git clone`, `git pull`, `git push` etc.) you will probably be asked to provide your *github* login credentials.
+For every operation you wish to do on the remote repository (`git clone`, `git pull`, `git push` etc.) you will probably be asked to provide your *GitHub* login credentials.
+
+## Working with *GitHub Issues*
+
+*Issues* are used for tracking different tasks like bugs to fix or features to add.
+
+Each issue has an *assignee* – a person assigned to work on it.
+
+An issue can have an unlimited ammount of *labels* which can help when organising different types of issues.
+
+---
+In our project we're going to use issues to help us split the work between ourselves.
+
+Before making any changes, make sure there is an issue open for those changes and if there isn't, open one. When a new issue is opened, we will discuss what has to be done and who has to do it using the built-in *comments*.
