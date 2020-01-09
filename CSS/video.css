@@ -1,0 +1,27 @@
+  .video_text {
+    position: absolute;
+    top: auto;
+    left: 45%;
+    float: left;
+    width: auto;
+    height: auto;
+  }
+
+  .video_title {
+    position: relative;
+    float: left;
+    display: block;
+  }
+
+  .video_description {
+    float: left;
+    display: block;
+  }
+
+  .ytvideo {
+    position: absolute;
+    top: auto;
+    left: 5%;
+    height: 315px;
+    width: 560px;
+  }
