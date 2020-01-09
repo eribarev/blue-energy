@@ -70,7 +70,7 @@ A completely different paragraph.
 ```
 
 ### CSS Conventions
-Below are some rules you should follow when editing CSS code.
+Below are some rules you should follow when editing CSS code. The CSS code **MUST** be seperated into external files!
 
 - There should be a space between any CSS selector and the opening bracket.
 - The closing bracket shoould be on a new line.
