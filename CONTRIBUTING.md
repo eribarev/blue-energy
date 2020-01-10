@@ -19,6 +19,7 @@ Below are some rules you should follow when editing HTML code.
 
 - All child elements should be indented.
 - Empty lines should be placed between elements of the same level which have different meanings.
+- Special characters should be inserted using their hexadecimal code (``&#x20AC;`` to display the &#x20AC; symbol)
 
 Example:
 ```html
@@ -75,6 +76,7 @@ Below are some rules you should follow when editing CSS code. The CSS code **MUS
 - The closing bracket shoould be on a new line.
 - A `;` should be put after **every** line of code
 - There should be a space between the `:` after the property name and its value
+- Colours should be specified using their hex code ``rgb(r,g,b)`` (``rgb(255,0,0)`` instead of ``#ff0000``)
 
 Example:
 ```css
