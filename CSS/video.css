@@ -5,6 +5,7 @@
     float: left;
     width: auto;
     height: auto;
+    color: white;
   }
 
   .video_title {
@@ -25,3 +26,19 @@
     height: 315px;
     width: 560px;
   }
+
+  .body_container{
+    width: auto;
+    height: auto;
+  }
+
+  .container{
+    position: relative;
+    top: 340px;
+  }
+
+  .container1{
+    position: relative;
+    top: 690px;
+  }
+

@@ -1,4 +1,4 @@
-@media only screen and (max-aspect-ratio: 9/21) {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
     .video_text {
         position: absolute;
         top: auto;
@@ -30,4 +30,70 @@
       body {
         background-color: lightblue;
       }
+}
+/* 720p */
+@media only screen and (min-width: 1081px) and (max-width: 1440px) {
+    .video_text {
+        position: absolute;
+        top: auto;
+        left: 42%;
+        float: left;
+        width: auto;
+        height: auto;
+        color: white;
+      }
+    
+      .video_title {
+        position: relative;
+        float: left;
+        display: block;
+      }
+    
+      .video_description {
+        float: left;
+        display: block;
+      }
+    
+      .ytvideo {
+        position: absolute;
+        top: auto;
+        left: 1%;
+        height: 315px;
+        width: 560px;
+      }
+
+    
+}
+/* 1920 p*/
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    .video_text {
+        position: absolute;
+        top: auto;
+        left: 32%;
+        float: left;
+        width: auto;
+        height: auto;
+        color: white;
+      }
+    
+      .video_title {
+        position: relative;
+        float: left;
+        display: block;
+      }
+    
+      .video_description {
+        float: left;
+        display: block;
+      }
+    
+      .ytvideo {
+        position: absolute;
+        top: auto;
+        left: 2%;
+        height: 315px;
+        width: 560px;
+      }
+
+      
 }
