@@ -1,10 +1,11 @@
   .video_text {
     position: absolute;
     top: auto;
-    left: 45%;
+    left: 35%;
     float: left;
     width: auto;
     height: auto;
+    color: white;
   }
 
   .video_title {
@@ -21,7 +22,23 @@
   .ytvideo {
     position: absolute;
     top: auto;
-    left: 5%;
+    left: 2%;
     height: 315px;
     width: 560px;
   }
+
+  .body_container{
+    width: auto;
+    height: auto;
+  }
+
+  .container{
+    position: relative;
+    top: 340px;
+  }
+
+  .container1{
+    position: relative;
+    top: 690px;
+  }
+
