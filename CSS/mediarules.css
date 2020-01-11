@@ -1,0 +1,33 @@
+@media only screen and (max-aspect-ratio: 9/21) {
+    .video_text {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        float: left;
+        width: auto;
+        height: auto;
+      }
+    
+      .video_title {
+        position: relative;
+        float: left;
+        display: block;
+      }
+    
+      .video_description {
+        float: left;
+        display: block;
+      }
+    
+      .ytvideo {
+        position: absolute;
+        top: auto;
+        left: 2%;
+        height: 315px;
+        width: 560px;
+      }
+
+      body {
+        background-color: lightblue;
+      }
+}
