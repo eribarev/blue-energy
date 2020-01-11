@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>The HTML5 Herald</title>
+</head>
+<body>
+
+    <script>
+        var x = 0, y = 1;
+
+        function myfunction(){
+            if(x > 30)
+            {
+                document.getElementById("demo").innerHTML = "Why not.";
+            }
+            else
+            {
+                document.getElementById("demo").innerHTML = "Why?";
+            }
+            document.getElementById("demo2").innerHTML = x;
+            document.getElementById("butt").innerHTML = x;
+            x += y;
+        }
+
+        function bonusX(){
+            if(x > 10)
+            {
+                x -= 10;
+                y++;
+                document.getElementById("bux").innerHTML = y;
+            }
+            else
+            {
+                document.getElementById("bux").innerHTML = "Not enough X.";
+            }
+
+            document.getElementById("demo2").innerHTML = x;
+            document.getElementById("butt").innerHTML = x;
+        }
+    </script>
+
+
+    <h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+    
+    <p id="demo"></p>
+
+    <p id="demo2"></p>
+    
+    <button onclick="myfunction()" id="butt">Hello</button>
+
+    <button onclick="bonusX()" id="bux">Bonus X</button>
+
+    <script>
+    document.write(5 + 6);
+    </script>
+
+</body>
+</html>
