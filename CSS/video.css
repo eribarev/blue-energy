@@ -1,35 +1,6 @@
-  .video_text {
-    position: absolute;
-    top: auto;
-    left: 35%;
-    float: left;
-    width: auto;
-    height: auto;
-    color: white;
-  }
-
-  .video_title {
-    position: relative;
-    float: left;
-    display: block;
-  }
-
-  .video_description {
-    float: left;
-    display: block;
-  }
-
-  .ytvideo {
-    position: absolute;
-    top: auto;
-    left: 2%;
-    height: 315px;
-    width: 560px;
-  }
-
   .body_container{
     width: auto;
-    height: auto;
+	height: auto;
   }
 
   .container{
@@ -42,3 +13,10 @@
     top: 690px;
   }
 
+  body{
+	margin: 0;
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
