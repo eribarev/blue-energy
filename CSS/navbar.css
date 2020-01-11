@@ -2,9 +2,6 @@ body {
     font-size: 28px;
   }
 
-  .flex-container {
-    display: flex;
-  }
 .navbar {
 	list-style-type: none;
 	margin: 0;
@@ -14,6 +11,7 @@ body {
 	position: sticky;
 	top: 0;
 	left: 0;
+	z-index: 1;
 }
 
 .navbar a {
@@ -105,4 +103,8 @@ body {
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
+}
+
+.active{
+	background-color: rgb(41, 128, 185);
 }
