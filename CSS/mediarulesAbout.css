@@ -1,0 +1,136 @@
+/*under 765px*/
+@media only screen and (max-width: 767px) {
+	.imgsize
+	{
+		width: 11%;
+		height: 70px;
+		position: absolute;
+		top: auto;
+		left: 1.5%;
+		margin: 10px;
+	}
+	.description{
+		position: absolute;
+		top: auto;
+		left: 20%;
+		float: left;
+		width: auto;
+		height: auto;
+		color: black;
+		font-size: 10pt;
+	}
+	.fontsize
+	{
+		font-size: 12pt;
+	}
+	.container{
+		position: relative;
+		top: 160px;
+	  }
+	.container1{
+		position: relative;
+		top: 325px;
+	  }
+}
+/*under 1200px*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+
+	.imgsize
+	{
+		width: 11%;
+		height: 115px;
+		position: absolute;
+		top: auto;
+		left: 1.5%;
+		margin: 10px;
+	}
+	.description{
+		position: absolute;
+		top: auto;
+		left: 15%;
+		float: left;
+		width: auto;
+		height: auto;
+		color: black;
+		font-size: 13pt;
+	}
+	.fontsize
+	{
+		font-size: 13pt;
+	}
+	.container{
+		position: relative;
+		top: 140px;
+	  }
+	.container1{
+		position: relative;
+		top: 280px;
+	  }
+}
+/* 720p */
+@media only screen and (min-width: 1081px) and (max-width: 1440px) {
+	.imgsize
+	{
+		width: 11%;
+		height: 140px;
+		position: absolute;
+		top: auto;
+		left: 1.5%;
+		margin: 10px;
+	}
+	.description{
+		position: absolute;
+		top: auto;
+		left: 15%;
+		float: left;
+		width: auto;
+		height: auto;
+		color: black;
+		font-size: 13pt;
+	}
+	.fontsize
+	{
+		font-size: 17pt;
+	}
+	.container{
+		position: relative;
+		top: 170px;
+	  }
+	.container1{
+		position: relative;
+		top: 340px;
+	  }
+}
+/* 1920 p*/
+@media only screen and (min-width: 1441px) {
+	.imgsize
+	{
+		width: 11.5%;
+		height: 190px;
+		position: absolute;
+		left: 1.5%;
+		margin: 10px;
+	}
+	.description{
+		position: absolute;
+
+		left: 15%;
+		float: left;
+		width: auto;
+		height: auto;
+		color: black;
+		font-size: 15pt;
+	}
+	.fontsize
+	{
+		font-size: 18pt;
+	}
+	.container{
+		position: relative;
+		top: 235px;
+	  }
+	.container1{
+		position: relative;
+		top: 470px;
+	  }
+}
