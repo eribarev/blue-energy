@@ -96,6 +96,8 @@ color:#ff0000}
 
 ***Important**: If you don't know how to work with *git* from the command line, it is recommended that you find and use a GUI client instead.*
 
+***Important**: When you want to achieve something, do **not** use hack solutions such as* drag-n-drop *or* copy-paste.
+
 To make changes to the project you will need to download and install [git](https://git-scm.com) if you haven't done so already. If you need help, there are many guides online which cover the process.
 
 After you have *git* installed on your system, you need to clone the repository by navigating to the parent directory in which you want the repository to be stored on your system and running `git clone`.
