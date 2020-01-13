@@ -34,5 +34,5 @@ body, html {
   .toplink{
       color: inherit;
       text-decoration: none;
-      transition: all 0.8s linear;
+	  transition: letter-spacing 0.8s, font-size 0.8s;
   }
