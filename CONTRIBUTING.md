@@ -108,6 +108,10 @@ When you are ready to start work, open a new branch by running `git branch` and 
 
 For every operation you wish to do on the remote repository (`git clone`, `git pull`, `git push` etc.) you will probably be asked to provide your *GitHub* login credentials.
 
+##Merge commits
+
+When merging any branch into a branch that is not `master` (merging `master` -> `alpha` for example), write your commit message in the following format: `Merge: <from_branch> -> <to_branch>`. If additional clarification must be provided, do so on a new line.
+
 ## Working with *GitHub Issues*
 
 *Issues* are used for tracking different tasks like bugs to fix or features to add.
