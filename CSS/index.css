@@ -51,7 +51,16 @@
 			text-indent: 1.5%;
 		}
 
-::selection {
+		.pdflink:link {
+			color: rgb(48, 48, 48);
+		}
+
+		.pdflink:visited {
+			color: rgb(48, 48, 48);
+		}
+
+	::selection {
 	background-color: black;
 	color: white;
 }
+
