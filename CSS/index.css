@@ -45,9 +45,9 @@
 	}
 
 		article {
+			padding: 1px;
 			margin-top: 4px;
 			width: auto;
-			border: 3px solid rgba(0, 0, 0, 0);
 			border-radius: 32px;
 			background: rgb(180,180,180);
 			background: linear-gradient(90deg, rgba(180,180,180,0.1) 0%, rgba(180,180,180,0.05) 52%, rgba(255,255,255,0) 100%);
