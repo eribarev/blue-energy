@@ -19,7 +19,8 @@
 		margin: inherit;
 		margin-top: 25px;
 		max-width: 48%;
-		background-color: rgba(180, 180, 180, 0.192);
+		background: rgb(180, 180, 180);
+		background: radial-gradient(circle, rgba(180, 180, 180, 0.45) 0%, rgba(180, 180, 180, 0.1) 100%);
 		border: 3px solid rgba(0, 0, 0, 0);
 		border-radius: 32px;
 	}
@@ -45,15 +46,14 @@
 	}
 
 		article {
+			padding: 1px;
 			margin-top: 4px;
 			width: auto;
-			border: 3px solid rgba(0, 0, 0, 0);
 			border-radius: 32px;
-			background: rgb(180,180,180);
-			background: linear-gradient(90deg, rgba(180,180,180,0.1) 0%, rgba(180,180,180,0.05) 52%, rgba(255,255,255,0) 100%);
+			background: rgb(180, 180, 180);
+			background: linear-gradient(90deg, rgba(180, 180, 180, 0.45) 0%,  rgba(180, 180, 180, 0.3) 10%, rgba(180, 180, 180, 0.28) 20%, rgba(180, 180, 180, 0.15) 50%, rgba(180, 180, 180, 0.2) 100%);
 		}
 
 		article p::first-line {
 			text-indent: 2.5%;
 		}
-
