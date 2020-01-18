@@ -39,8 +39,9 @@
   .footer
   {
 	position: absolute;
+	overflow: auto;
 	left: 0;
-	bottom: 200%;
+	bottom: 0;
 	height: auto;
 	width: 100%;
 	background-color: rgb(51, 51, 51);
