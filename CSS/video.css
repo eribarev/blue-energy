@@ -24,4 +24,19 @@
 		background-size: cover;
 		height: auto;
 		width: auto;
-  }
+	}
+
+	p a:link {
+		color: white;
+		text-decoration: underline;
+	}
+
+	p a:visited {
+		color: white;
+		text-decoration: underline;
+	}
+
+	p a:active {
+		color: white;
+		text-decoration: underline;
+	}

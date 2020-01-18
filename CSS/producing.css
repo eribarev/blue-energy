@@ -46,3 +46,11 @@
 		margin-left: 6%;
 		margin-right: 6%;
 	}
+
+	p{
+		width: auto;
+		background: rgba(34, 34, 34, 0.7);
+		padding: 1px;
+		margin-top: 3px;
+		border-radius: 32px;
+	}
