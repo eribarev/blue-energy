@@ -6,4 +6,33 @@ body{
 	background-size: cover;
 	height: auto;
 	width: auto;
+	margin: 4% auto auto auto;
+  }
+
+  .body_container {
+	  margin-top: 6%;
+	  max-width: 98%;
+  }
+
+  .imgsize
+  {
+	  position: absolute;
+	  top: auto;
+  }
+
+  .description{
+	  position: absolute;
+	  top: auto;
+	  float: left;
+	  width: auto;
+	  height: auto;
+	  color: black;
+  }
+
+  .container{
+	  position: relative;
+  }
+
+  .container1{
+	  position: relative;
   }

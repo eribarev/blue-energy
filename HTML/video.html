@@ -5,64 +5,72 @@
 
   <script src="..\JavaScript\navdropdown.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="../Css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../Css/navbar_static.css">
   <link rel="stylesheet" type="text/css" href="../Css/video.css">
   <link rel="stylesheet" type="text/css" href="../Css/mediarulesVideo.css">
   <link rel="icon" href="../Images/TabIcon.jpg" type="image/icon type">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Video </title>
 </head>
-<body>
+<body class="imghold">
+
 <!--Navbar-->
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Energy</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a href="#home">Prodcing</a>
-      <a href="#about">Using</a>
-      <a href="#contact">Storing</a>
-    </div>
-  </div>
-  <a href="video.html" class = "active">Video</a>
-  <a href="About.html">About</a>
+	<nav class="navbar" id="navbar">
 
-</div>
+		<a href="index.html">Home</a>
+
+		<section class="dropdown">
+
+			<button onclick="myFunction()" class="dropbtn">Energy</button>
+
+			<section id="myDropdown" class="dropdown-content">
+
+				<a href="producing.html">Prodcing</a>
+				<a href="using.html">Using</a>
+				<a href="storing.html">Storing</a>
+
+			</section>
+
+		</section>
+
+		<a href="video.html" class = "active">Video</a>
+		<a href="About.html">About</a>
+
+	</nav>
 
 
-<div class="body_container">
-  <div class="video_flex_container">
-    <div class="video_text">
-      <h3 class="video_title"><b>Video Title</b></h3>
-      <br>
-      <p class="video_description">Video Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at vestibulum mauris. Nulla risus urna, dignissim eu orci in, ullamcorper cursus turpis. Praesent accumsan.</p>
-    </div>
-    <br>
-    <iframe src="https://www.youtube.com/embed/KUddy8RGwns" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
-  </div>
 
-  <div class="container">
-    <div class="video_text">
-      <h3 class="video_title"><b>Video Title</b></h3>
-      <br>
-      <p class="video_description">Video Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at vestibulum mauris. Nulla risus urna, dignissim eu orci in, ullamcorper cursus turpis. Praesent accumsan.</p>
-    </div>
-	<br>
-	<div>
-    	<iframe src="https://www.youtube.com/embed/KUddy8RGwns" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
-	</div>
-</div>
 
-  <div class="container1">
-    <div class="video_text">
-      <h3 class="video_title"><b>Video Title</b></h3>
-      <br>
-      <p class="video_description">Video Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at vestibulum mauris. Nulla risus urna, dignissim eu orci in, ullamcorper cursus turpis. Praesent accumsan.</p>
-    </div>
-    <br>
-    <iframe src="https://www.youtube.com/embed/KUddy8RGwns" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
-  </div>
-<div>
+	<main class="body_container">
+		<section class="">
+			<article class="video_text">
+			<h3 class="video_title"><b>Video Title</b></h3>
+			<br>
+			<p class="video_description">Video Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at vestibulum mauris. Nulla risus urna, dignissim eu orci in, ullamcorper cursus turpis. Praesent accumsan.</p>
+			</article>
+			<br>
+			<iframe src="https://www.youtube.com/embed/KUddy8RGwns" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
+		</section>
 
+		<section class="container">
+			<article class="video_text">
+			<h3 class="video_title"><b>Video Title</b></h3>
+			<br>
+			<p class="video_description">Video Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at vestibulum mauris. Nulla risus urna, dignissim eu orci in, ullamcorper cursus turpis. Praesent accumsan.</p>
+			</article>
+			<br>
+			<iframe src="https://www.youtube.com/embed/KUddy8RGwns" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
+		</section>
+
+		<section class="container1">
+			<article class="video_text">
+			<h3 class="video_title"><b>Video Title</b></h3>
+			<br>
+			<p class="video_description">Video Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at vestibulum mauris. Nulla risus urna, dignissim eu orci in, ullamcorper cursus turpis. Praesent accumsan.</p>
+			</article>
+			<br>
+			<iframe src="https://www.youtube.com/embed/KUddy8RGwns" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
+		</section>
+	</main>
 </body>
 </html>

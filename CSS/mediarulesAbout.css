@@ -1,22 +1,14 @@
-/*under 765px*/
-@media only screen and (max-width: 767px) {
+/*under 425px*/
+@media only screen and (max-width: 424px){
 	.imgsize
 	{
-		width: 11%;
-		height: 70px;
-		position: absolute;
-		top: auto;
+		width: 13%;
+		height: 90px;
 		left: 1.5%;
 		margin: 10px;
 	}
 	.description{
-		position: absolute;
-		top: auto;
 		left: 20%;
-		float: left;
-		width: auto;
-		height: auto;
-		color: black;
 		font-size: 10pt;
 	}
 	.fontsize
@@ -24,11 +16,33 @@
 		font-size: 12pt;
 	}
 	.container{
-		position: relative;
 		top: 160px;
 	  }
 	.container1{
-		position: relative;
+		top: 325px;
+	  }
+}
+/*under 768px*/
+@media only screen and (max-width: 767px) and (min-width: 425px) {
+	.imgsize
+	{
+		width: 13%;
+		height: 90px;
+		left: 1.5%;
+		margin: 10px;
+	}
+	.description{
+		left: 20%;
+		font-size: 10pt;
+	}
+	.fontsize
+	{
+		font-size: 12pt;
+	}
+	.container{
+		top: 160px;
+	  }
+	.container1{
 		top: 325px;
 	  }
 }
@@ -39,19 +53,11 @@
 	{
 		width: 11%;
 		height: 115px;
-		position: absolute;
-		top: auto;
 		left: 1.5%;
 		margin: 10px;
 	}
 	.description{
-		position: absolute;
-		top: auto;
 		left: 15%;
-		float: left;
-		width: auto;
-		height: auto;
-		color: black;
 		font-size: 13pt;
 	}
 	.fontsize
@@ -59,11 +65,9 @@
 		font-size: 13pt;
 	}
 	.container{
-		position: relative;
 		top: 140px;
 	  }
 	.container1{
-		position: relative;
 		top: 280px;
 	  }
 }
@@ -73,19 +77,11 @@
 	{
 		width: 11%;
 		height: 140px;
-		position: absolute;
-		top: auto;
 		left: 1.5%;
 		margin: 10px;
 	}
 	.description{
-		position: absolute;
-		top: auto;
 		left: 15%;
-		float: left;
-		width: auto;
-		height: auto;
-		color: black;
 		font-size: 13pt;
 	}
 	.fontsize
@@ -93,11 +89,9 @@
 		font-size: 17pt;
 	}
 	.container{
-		position: relative;
 		top: 170px;
 	  }
 	.container1{
-		position: relative;
 		top: 340px;
 	  }
 }
@@ -107,18 +101,11 @@
 	{
 		width: 11.5%;
 		height: 190px;
-		position: absolute;
 		left: 1.5%;
 		margin: 10px;
 	}
 	.description{
-		position: absolute;
-
 		left: 15%;
-		float: left;
-		width: auto;
-		height: auto;
-		color: black;
 		font-size: 15pt;
 	}
 	.fontsize
@@ -126,11 +113,9 @@
 		font-size: 18pt;
 	}
 	.container{
-		position: relative;
 		top: 235px;
 	  }
 	.container1{
-		position: relative;
 		top: 470px;
 	  }
 }

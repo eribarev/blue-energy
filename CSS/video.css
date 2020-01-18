@@ -1,7 +1,8 @@
   .body_container{
     width: auto;
 	height: auto;
-  }
+	margin: 3% auto auto auto;
+ }
 
   .container{
     position: relative;
@@ -13,10 +14,13 @@
     top: 690px;
   }
 
-  body{
+  .imghold{
 	margin: 0;
+	background-blend-mode: lighten;
     background-image: url('../Images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+	background-size: cover;
+	height: auto;
+	width: auto;
   }
