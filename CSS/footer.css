@@ -1,8 +1,8 @@
 .footer
 {
   position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 100%;
   background-color: rgb(51, 51, 51);
   color: white;
@@ -10,17 +10,17 @@
   font-size: 15pt;
 
 }
-a:link {
+ .footer a:link {
   color: white;
   text-decoration: none;
 }
-a:visited {
+ .footer a:visited {
   color: white;
   text-decoration: none;
 }
-a:hover {
+.footer a:hover {
   text-decoration: underline;
 }
-a:active {
+.footer a:active {
   text-decoration: underline;
 }
