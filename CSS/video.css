@@ -16,12 +16,12 @@
   }
 
   .imghold{
-	margin: 0;
-	background-blend-mode: lighten;
+		margin: 0;
+		background-blend-mode: lighten;
     background-image: url('../Images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-size: cover;
-	height: auto;
-	width: auto;
+		background-size: cover;
+		height: auto;
+		width: auto;
   }
