@@ -1,47 +1,86 @@
-/*under 765px*/
-@media only screen and (max-width: 767px) {
-    .video_text {
-        position: absolute;
-        top: auto;
-        left: 50%;
-        float: left;
-        width: auto;
+/*under 425px*/
+@media only screen and (max-width: 424px){
+	.video_text {
+		position: absolute;
+		top: auto;
+		left: 50%;
+		float: left;
+		width: auto;
 		height: auto;
 		color: white;
-		font-size: 15pt;
+		font-size: 12pt;
+		}
+
+		.video_title {
+		position: relative;
+		float: left;
+		display: block;
+		font-size: auto;
+		}
+
+		.video_description {
+		float: left;
+		display: block;
+		}
+
+		.ytvideo {
+		position: absolute;
+		top: auto;
+		left: 2%;
+		height: 215px;
+		width: 38%;
+		}
+		.body_container{
+			margin: 14% auto auto auto;
+	 }
+}
+/*under 765px*/
+@media only screen and (max-width: 767px)  and (min-width: 425px) {
+    .video_text {
+      position: absolute;
+      top: auto;
+      left: 50%;
+      float: left;
+      width: auto;
+			height: auto;
+			color: white;
+			font-size: 14pt;
       }
 
       .video_title {
-        position: relative;
-        float: left;
-		display: block;
-		font-size: auto;
+      position: relative;
+      float: left;
+			display: block;
+			font-size: auto;
       }
 
       .video_description {
-        float: left;
-		display: block;
+      float: left;
+			display: block;
       }
 
       .ytvideo {
-        position: absolute;
-		top: auto;
-        left: 2%;
-        height: 250px;
-        width: 42%;
-      }
+      position: absolute;
+			top: auto;
+			left: 2%;
+    	height: 250px;
+      width: 42%;
+			}
+			.body_container{
+				margin: 9% auto auto auto;
+		 }
 }
-/*under 1200px*/
+/*under 1080px*/
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
     .video_text {
-        position: absolute;
-        top: auto;
-        left: 50%;
-        float: left;
-        width: auto;
-		height: auto;
-		color: white;
-		font-size: 20pt;
+			position: absolute;
+			top: auto;
+      left: 50%;
+      float: left;
+      width: auto;
+			height: auto;
+			color: white;
+			font-size: 20pt;
       }
 
       .video_title {
@@ -51,8 +90,8 @@
       }
 
       .video_description {
-        float: left;
-		display: block;
+      float: left;
+			display: block;
       }
 
       .ytvideo {
@@ -62,8 +101,9 @@
         height: 315px;
         width: 46%;
       }
-
-
+			.body_container{
+				margin: 7% auto auto auto;
+			}
 }
 /* 720p */
 @media only screen and (min-width: 1081px) and (max-width: 1440px) {
@@ -95,10 +135,11 @@
         height: 315px;
         width: 38%;
       }
-
-
+			.body_container{
+				margin: 5% auto auto auto;
+			}
 }
-/* 1920 p*/
+/* over 1441 px*/
 @media only screen and (min-width: 1441px) {
     .video_text {
         position: absolute;
@@ -128,6 +169,7 @@
         height: 315px;
         width: 29.5%;
       }
-
-
+			.body_container{
+				margin: 4% auto auto auto;
+			}
 }

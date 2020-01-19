@@ -1,7 +1,6 @@
   .body_container{
-    width: auto;
+  width: auto;
 	height: auto;
-	margin: 3% auto auto auto;
 	padding-bottom: auto;
  }
 
@@ -39,4 +38,10 @@
 	p a:active {
 		color: white;
 		text-decoration: underline;
+	}
+	p,h3 {
+		width: auto;
+		background: rgba(34, 34, 34, 0.7);
+		padding: 8px;
+		border-radius: 32px;
 	}

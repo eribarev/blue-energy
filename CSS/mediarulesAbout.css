@@ -3,20 +3,20 @@
 	.imgsize
 	{
 		width: 13%;
-		height: 90px;
+		height: 75px;
 		left: 1.5%;
 		margin: 10px;
 	}
 	.description{
-		left: 20%;
-		font-size: 10pt;
+		left: 22%;
+		font-size: 9pt;
 	}
 	.fontsize
 	{
-		font-size: 12pt;
+		font-size: 11pt;
 	}
 	.body_container {
-		margin-top: 16%;
+		margin-top: 20%;
 		max-width: 98%;
 	}
 	.container{
@@ -60,7 +60,7 @@
 		top: 490px;
 	}
 }
-/*under 1200px*/
+/*under 1080px*/
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
 
 	.imgsize
