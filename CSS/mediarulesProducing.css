@@ -1,0 +1,33 @@
+/*under 425px*/
+@media only screen and (max-width: 424px){
+	.ytvideo {
+		left: 0%;
+		height: 250px;
+		width: 65%;
+	}
+	.description {
+		font-size: 12pt;
+	}
+}
+/*under 765px*/
+@media only screen and (max-width: 767px)  and (min-width: 425px) {
+	.ytvideo {
+		left: 0%;
+		height: 300px;
+		width: 65%;
+	}
+	.description {
+		font-size: 15pt;
+	}
+}
+/*under 1080px*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	.ytvideo {
+		left: 0%;
+		height: 350px;
+		width: 65%;
+	}
+	.description {
+		font-size: 16pt;
+	}
+}
