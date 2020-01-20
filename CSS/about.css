@@ -1,0 +1,61 @@
+ body, html {
+	 height: 100%;
+ }
+
+ .imghold{
+	background-blend-mode: lighten;
+    background-image: url('../Images/background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	height: auto;
+	width: auto;
+
+  }
+
+  .imgsize
+  {
+	  position: absolute;
+	  top: auto;
+  }
+
+  .description{
+	  position: absolute;
+	  top: auto;
+	  float: left;
+	  width: auto;
+	  height: auto;
+	  color: black;
+  }
+
+	section, .container, .container1, .head2 {
+		position: relative;
+		display: block;
+  }
+
+	header {
+		text-align: center;
+	}
+
+	.head2 hr {
+		max-width: 80%;
+		height: 10px;
+		background-color: rgb(27, 27, 27);
+		border: 1px solid rgb(24, 24, 24);
+		border-radius: 40px;
+	}
+
+		.head2 a:link {
+		color: blACK;
+		text-decoration: none;
+		}
+		 .head2 a:visited {
+		color: bLaCk;
+		text-decoration: none;
+		}
+		.head2 a:hover {
+		text-decoration: underline;
+		}
+		.head2 a:active {
+		text-decoration: underline;
+	  }
