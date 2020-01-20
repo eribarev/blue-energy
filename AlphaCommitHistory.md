@@ -1,131 +1,43 @@
-Commits on Jan 19, 2020
-update using tap
+# The glorious history of the `alpha` branch
 
-@bbkanev18
-bbkanev18 committed 15 hours ago
+There were a total of _93_ commits. They will forever live on in our hearts.
 
-change composition of energy tab …
+---
 
-@bbkanev18
-bbkanev18 committed 16 hours ago
+## Commits on Jan 19, 2020
 
-update video and about tab
+- update using tap @bbkanev18
+- change composition of energy tab … @bbkanev18
+- update video and about tab @bbkanev18
 
-@bbkanev18
-bbkanev18 committed 16 hours ago
+---
+## Commits on Jan 18, 2020
 
-Commits on Jan 18, 2020
-Update to Energy subpages …
+- Update to Energy subpages … @bbkanev18 @mssevov
+- Update on Energy subpages … @bbkanev18 @mssevov
+- About update … @bbkanev18 @mssevov
+- Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project … @mssevov
+- Update About.html @mssevov
+- Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project … @bbkanev18
+- update energy bar … @bbkanev18 @mssevov
+- Footer Genocide … @mssevov
+- Producing added @mssevov
+- Update .editorconfig @mssevov
+- footer migration … @bbkanev18 @mssevov
+- Update Footer @bbkanev18
+- navbar energy dropdown color fix @bbkanev18
+- Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project … @bbkanev18
+- add footer @bbkanev18
+- Update to video link @mssevov
+- Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project … @mssevov
+- Navbar margin fix @mssevov
+- edit midiarilesAbout @bbkanev18
+- Static Navbar, About mediarules, Video fix @bbkanev18
+- add icon on title @bbkanev18
 
-@bbkanev18
-@mssevov
-bbkanev18 and mssevov committed 2 days ago
+---
+## Commits on Jan 15, 2020
 
-Update on Energy subpages …
-
-@bbkanev18
-@mssevov
-bbkanev18 and mssevov committed 2 days ago
-
-About update …
-
-@bbkanev18
-@mssevov
-bbkanev18 and mssevov committed 2 days ago
-
-Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project …
-
-@mssevov
-mssevov committed 2 days ago
-
-Update About.html
-
-@mssevov
-mssevov committed 2 days ago
-
-Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project …
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-update energy bar …
-
-@bbkanev18
-@mssevov
-bbkanev18 and mssevov committed 2 days ago
-
-Footer Genocide …
-
-@mssevov
-mssevov committed 2 days ago
-
-Producing added,
-
-@mssevov
-mssevov committed 2 days ago
-
-Update .editorconfig
-
-@mssevov
-mssevov committed 2 days ago
-
-footer migration …
-
-@bbkanev18
-@mssevov
-bbkanev18 and mssevov committed 2 days ago
-
-Update Footer
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-navbar energy dropdown color fix
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project …
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-add footer
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-Update to video link
-
-@mssevov
-mssevov committed 2 days ago
-
-Merge branch 'alpha' of https://github.com/eiribarev/end-of-term-project …
-
-@mssevov
-mssevov committed 2 days ago
-
-Navbar margin fix
-
-@mssevov
-mssevov committed 2 days ago
-
-edit midiarilesAbout
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-Static Navbar, About mediarules, Video fix
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-add icon on title
-
-@bbkanev18
-bbkanev18 committed 2 days ago
-
-Commits on Jan 15, 2020
 Added link to resoueces and css
 
 @mssevov
