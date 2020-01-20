@@ -1,47 +1,48 @@
-  .body_container{
-  width: auto;
+.body_container {
+	width: auto;
 	height: auto;
 	padding-bottom: auto;
- }
+}
 
-  .container{
-    position: relative;
-    top: 340px;
-  }
+.container {
+	position: relative;
+	top: 340px;
+}
 
-  .container1{
-    position: relative;
-    top: 690px;
-  }
+.container1 {
+	position: relative;
+	top: 690px;
+}
 
-  .imghold{
-		margin: 0;
-		background-blend-mode: lighten;
-    background-image: url('../Images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-		background-size: cover;
-		height: auto;
-		width: auto;
-	}
+.imghold {
+	margin: 0;
+	background-blend-mode: lighten;
+	background-image: url('../Images/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: auto;
+	width: auto;
+}
 
-	p a:link {
-		color: white;
-		text-decoration: underline;
-	}
+p a:link {
+	color: white;
+	text-decoration: underline;
+}
 
-	p a:visited {
-		color: white;
-		text-decoration: underline;
-	}
+p a:visited {
+	color: white;
+	text-decoration: underline;
+}
 
-	p a:active {
-		color: white;
-		text-decoration: underline;
-	}
-	p,h3 {
-		width: auto;
-		background: rgba(34, 34, 34, 0.7);
-		padding: 8px;
-		border-radius: 32px;
-	}
+p a:active {
+	color: white;
+	text-decoration: underline;
+}
+
+p,h3 {
+	width: auto;
+	background: rgba(34, 34, 34, 0.7);
+	padding: 8px;
+	border-radius: 32px;
+}

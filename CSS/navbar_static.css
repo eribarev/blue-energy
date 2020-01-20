@@ -1,7 +1,7 @@
 body {
 	font-size: 28px;
 	margin: 0px;
-  }
+}
 
 .navbar {
 	margin: 0;
@@ -14,7 +14,6 @@ body {
 	z-index: 1;
 	display: flex;
 	width: 100%;
-
 }
 
 .navbar a {
@@ -46,7 +45,6 @@ body {
 .dropdown {
 	position: relative;
 	display: inline;
-
 }
 
 .dropdown-content {
@@ -57,7 +55,6 @@ body {
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-
 }
 
 .dropdown-content a {

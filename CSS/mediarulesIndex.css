@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
 	body {
 		font-size: 15px;
 	}
@@ -25,13 +24,9 @@
 			margin-top: 1px;
 			border-radius: 32px;
 		}
-
-
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
-
 	body {
 		font-size: 18px;
 	}
@@ -57,13 +52,9 @@
 			margin-top: 2px;
 			border-radius: 32px;
 		}
-
-
-
 }
 
 @media only screen and (min-width: 1081px) and (max-width: 1440px) {
-
 	body {
 		font-size: 22px;
 	}
@@ -89,12 +80,9 @@
 			margin-top: 3px;
 			border-radius: 32px;
 		}
-
-
 }
 
 @media only screen and (min-width: 1441px) {
-
 	body {
 		font-size: 28px;
 	}

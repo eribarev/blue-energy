@@ -1,4 +1,4 @@
- .imghold {
+.imghold {
 	margin: 0;
 	background-blend-mode: lighten;
 	background-image: url('../Images/indexbgr.jpeg');
@@ -7,9 +7,9 @@
 	background-size: cover;
 	height: auto;
 	width: auto;
-  }
+}
 
- .content_container {
+.content_container {
 	margin: auto;
 	max-width: 96%;
 }
@@ -17,51 +17,51 @@
 .heading_d {
 	margin: inherit;
 	background: rgb(180, 180, 180);
-		background: radial-gradient(circle, rgba(180, 180, 180, 0.45) 0%, rgba(180, 180, 180, 0.1) 100%);
-		border: 3px solid rgba(0, 0, 0, 0);
+	background: radial-gradient(circle, rgba(180, 180, 180, 0.45) 0%, rgba(180, 180, 180, 0.1) 100%);
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+	.heading_d h2,h4 {
+		text-align: center;
+		text-decoration: underline;
 	}
 
-		.heading_d h2,h4 {
-			text-align: center;
-			text-decoration: underline;
-		}
-
-		.heading_d hr {
-			max-width: 100%;
-			background-color: rgb(27, 27, 27);
-			border: 1px solid rgb(24, 24, 24);
-		}
-
-	.first_section {
-		margin: inherit;
-		max-width: 98%;
+	.heading_d hr {
+		max-width: 100%;
+		background-color: rgb(27, 27, 27);
+		border: 1px solid rgb(24, 24, 24);
 	}
 
-		article {
-			width: auto;
-			background: rgb(180, 180, 180);
-			background: linear-gradient(90deg, rgba(180, 180, 180, 0.45) 0%,  rgba(180, 180, 180, 0.3) 10%, rgba(180, 180, 180, 0.28) 20%, rgba(180, 180, 180, 0.15) 50%, rgba(180, 180, 180, 0.2) 100%);
-		}
+.first_section {
+	margin: inherit;
+	max-width: 98%;
+}
 
-		article p::first-line {
-			text-indent: 2.5%;
-		}
+article {
+	width: auto;
+	background: rgb(180, 180, 180);
+	background: linear-gradient(90deg, rgba(180, 180, 180, 0.45) 0%,  rgba(180, 180, 180, 0.3) 10%, rgba(180, 180, 180, 0.28) 20%, rgba(180, 180, 180, 0.15) 50%, rgba(180, 180, 180, 0.2) 100%);
+}
 
-		article p {
-			text-indent: 1.5%;
-		}
+	article p::first-line {
+		text-indent: 2.5%;
+	}
 
-		.pdflink:link {
-			color: rgb(48, 48, 48);
-		}
+	article p {
+		text-indent: 1.5%;
+	}
 
-		.pdflink:visited {
-			color: rgb(48, 48, 48);
-		}
+.pdflink:link {
+	color: rgb(48, 48, 48);
+}
 
-	::selection {
+.pdflink:visited {
+	color: rgb(48, 48, 48);
+}
+
+::selection {
 	background-color: black;
 	color: white;
-	}
+}
 
 

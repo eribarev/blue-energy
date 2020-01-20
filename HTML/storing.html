@@ -1,89 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
 <head>
+	<script src="..\JavaScript\navdropdown.js"></script>
 
-  <script src="..\JavaScript\navdropdown.js"></script>
+	<link rel="stylesheet" type="text/css" href="../Css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="../Css/storing.css">
+	<link rel="stylesheet" type="text/css" href="../Css\mediarulesStoring.css">
+	<link rel="icon" href="../Images/TabIcon.jpg" type="image/icon type">
 
-  <link rel="stylesheet" type="text/css" href="../Css/navbar.css">
-  <link rel="stylesheet" type="text/css" href="../Css/storing.css">
-  <link rel="stylesheet" type="text/css" href="../Css\mediarulesStoring.css">
-  <link rel="icon" href="../Images/TabIcon.jpg" type="image/icon type">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Using</title>
-
+	<title>Using</title>
 </head>
+
 <body>
 <!--Navbar-->
-<div class="imghold">
-	<nav class="navbar" id="navbar">
+	<div class="imghold">
+		<nav class="navbar" id="navbar">
+			<a href="index.html">Home</a>
 
-	<a href="index.html">Home</a>
+			<section class="dropdown">
+				<button onclick="myFunction()" class="dropbtn active">Energy</button>
 
-	<section class="dropdown">
+				<section id="myDropdown" class="dropdown-content">
+					<a href="producing.html">Producing</a>
+					<a href="storing.html"class = "subactive">Storing</a>
+					<a href="using.html">Using</a>
+				</section>
+			</section>
 
-		<button onclick="myFunction()" class="dropbtn active">Energy</button>
+			<a href="video.html">Video</a>
+			<a href="About.html">About</a>
+		</nav>
 
-		<section id="myDropdown" class="dropdown-content">
+		<!-- Content -->
+		<main class="content_container">
+			<section class="heading_d">
+				<!--Headline-->
+				<h2 class="title">
+					Storing Energy
+				</h2>
+				<hr>
+			</section>
 
-		<a href="producing.html">Producing</a>
-		<a href="storing.html"class = "subactive">Storing</a>
-		<a href="using.html">Using</a>
+			<section class="first_section">
+				<article>
+					<h4 class="summary">
+						Video Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</h4>
+				</article>
 
-		</section>
+				<article>
+					<center>
+						<iframe src="https://www.youtube.com/embed/VNqNnUJVcVs" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
+					</center>
+				</article>
+			</section>
 
-	</section>
+			<section class="second_section">
+				<article>
+					<p class="description">
+						Video Explaination Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit lacus ac egestas feugiat. In at orci eget purus congue lobortis blandit non dolor. Nullam consequat enim id lacus mattis, vel eleifend erat dictum. Pellentesque commodo lacus dui, sit amet porttitor ex sodales sit amet. Cras sed ex enim. Duis ex arcu, consequat sit amet magna eget, sollicitudin elementum mi. Integer malesuada, ligula sollicitudin lacinia suscipit, erat velit accumsan tellus, vel tempus sapien sapien et nunc.
 
-	<a href="video.html">Video</a>
-	<a href="About.html">About</a>
-
-	</nav>
-
-	<!-- Content -->
-	<main class="content_container">
-
-		<section class="heading_d">
-		<!--Headline-->
-		<h2 class="title">
-			Storing Energy
-		</h2>
-
-		<hr>
-
-		</section>
-
-		<section class="first_section">
-
-		<article>
-			<h4 class="summary">
-				Video Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			</h4>
-		</article>
-
-		<article>
-			<center>
-				<iframe src="https://www.youtube.com/embed/VNqNnUJVcVs" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; disablekb" allowfullscreen class="ytvideo"></iframe>
-			</center>
-		</article>
-
-		</section>
-
-		<section class="second_section">
-
-			<article>
-				<p class="description">
-					Video Explaination Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit lacus ac egestas feugiat. In at orci eget purus congue lobortis blandit non dolor. Nullam consequat enim id lacus mattis, vel eleifend erat dictum. Pellentesque commodo lacus dui, sit amet porttitor ex sodales sit amet. Cras sed ex enim. Duis ex arcu, consequat sit amet magna eget, sollicitudin elementum mi. Integer malesuada, ligula sollicitudin lacinia suscipit, erat velit accumsan tellus, vel tempus sapien sapien et nunc.
-
-					In non convallis purus. Mauris posuere risus magna, et consequat mauris tincidunt sit amet. Ut maximus sagittis enim quis pulvinar. Cras efficitur massa at est sodales pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a dolor semper, scelerisque tellus nec, tristique massa. Suspendisse mollis est sed massa vulputate, sit amet congue sem posuere.
-				</p>
-			</article>
-
-		</section>
-
-	</main>
-
-</div>
+						In non convallis purus. Mauris posuere risus magna, et consequat mauris tincidunt sit amet. Ut maximus sagittis enim quis pulvinar. Cras efficitur massa at est sodales pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a dolor semper, scelerisque tellus nec, tristique massa. Suspendisse mollis est sed massa vulputate, sit amet congue sem posuere.
+					</p>
+				</article>
+			</section>
+		</main>
+	</div>
 </body>
 </html>

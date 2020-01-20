@@ -29,10 +29,10 @@ body, html {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
-  }
+}
 
-  .toplink{
-      color: inherit;
-      text-decoration: none;
-	  transition: letter-spacing 0.8s, font-size 0.8s;
-  }
+.toplink{
+	color: inherit;
+	text-decoration: none;
+	transition: letter-spacing 0.8s, font-size 0.8s;
+}
