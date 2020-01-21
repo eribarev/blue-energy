@@ -28,7 +28,7 @@ width: auto;
 	color: black;
 }
 
-section, .container, .container1, .head2 {
+section, .container, .container1, .foot {
 	position: relative;
 	display: block;
 }
@@ -37,7 +37,11 @@ header {
 	text-align: center;
 }
 
-.head2 hr {
+.foot {
+	text-align: center;
+}
+
+.foot hr {
 	max-width: 80%;
 	height: 10px;
 	background-color: rgb(27, 27, 27);
@@ -45,20 +49,20 @@ header {
 	border-radius: 40px;
 }
 
-.head2 a:link {
+.foot a:link {
 	color: blACK;
 	text-decoration: none;
 }
 
-.head2 a:visited {
+.foot a:visited {
 	color: bLaCk;
 	text-decoration: none;
 }
 
-.head2 a:hover {
+.foot a:hover {
 	text-decoration: underline;
 }
 
-.head2 a:active {
+.foot a:active {
 	text-decoration: underline;
 }
