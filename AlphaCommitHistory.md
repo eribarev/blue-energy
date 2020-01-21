@@ -1,6 +1,6 @@
 # The glorious history of the `alpha` branch
 
-There were a total of _93_ commits. They will forever live on in our hearts.
+There were a total of _93_ commits. They will forever live on in our hearts. *ПОЗДРАВ*
 
 ---
 
