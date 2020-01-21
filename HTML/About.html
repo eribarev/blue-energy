@@ -3,9 +3,11 @@
 <html>
 <head>
 	<script src="..\JavaScript\navdropdown.js"></script>
+	<script src="../JavaScript/form.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="../Css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="../Css/about.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/form.css">
 	<link rel="icon" href="../Images/TabIcon.jpg" type="image/icon type">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,7 +84,18 @@
 				<h3>Contacts</h3>
 
 				<article><!--Ask the English Teacher for this-->
-					<p>Contact us at: <a href="mailto:blue.energy@codingburgas.bg?subject=What is the Issue&body=Explain your issue:" target="_blank">blue.energy@codingburgas.bg</a></p>
+					<p>
+						Use the contact form:
+					</p>
+					<form id="contactForm">
+						<input type="text" name="name" placeholder="Please enter your name"> <br>
+						<input type="text" name="subject" placeholder="Please enter a short subject"> <br>
+
+						<input type="button" value="Submit" onclick="formsubmit();">
+					</form>
+					<p>
+						Or contact us at: <a id="mailLink" href="mailto:blue.energy@codingburgas.bg?subject=What is the Issue&body=Explain your issue:" target="_blank">blue.energy@codingburgas.bg</a>
+					</p>
 				</article>
 			</footer>
 		</main>
