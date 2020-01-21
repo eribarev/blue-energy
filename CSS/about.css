@@ -66,3 +66,185 @@ header {
 .foot a:active {
 	text-decoration: underline;
 }
+
+
+/*under 425px*/
+@media only screen and (max-width: 424px) {
+	.imgsize {
+		width: 13%;
+		height: 75px;
+		left: 1.5%;
+		margin: 10px;
+	}
+
+	.description {
+		left: 22%;
+		font-size: 9pt;
+	}
+
+	.fontsize {
+		font-size: 11pt;
+	}
+
+	.body_container {
+		margin-top: 20%;
+		max-width: 98%;
+	}
+
+	.container {
+		top: 160px;
+	}
+
+	.container1 {
+		top: 325px;
+	}
+
+	.foot {
+		top: 490px;
+	}
+}
+
+/*under 768px*/
+@media only screen and (max-width: 767px) and (min-width: 425px) {
+	.imgsize {
+		width: 13%;
+		height: 90px;
+		left: 1.5%;
+		margin: 10px;
+	}
+
+	.description {
+		left: 20%;
+		font-size: 10pt;
+	}
+
+	.fontsize {
+		font-size: 12pt;
+	}
+
+	.body_container {
+		margin-top: 13%;
+		max-width: 98%;
+	}
+
+	.container{
+		top: 160px;
+	}
+
+	.container1 {
+		top: 325px;
+	}
+
+	.foot {
+		top: 490px;
+	}
+}
+
+/*under 1080px*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	.imgsize {
+		width: 11%;
+		height: 115px;
+		left: 1.5%;
+		margin: 10px;
+	}
+
+	.description {
+		left: 16.5%;
+		font-size: 13pt;
+	}
+
+	.fontsize {
+		font-size: 13pt;
+	}
+
+	.body_container {
+		margin-top: 8%;
+		max-width: 98%;
+	}
+
+	.container {
+		top: 140px;
+
+	}
+
+	.container1 {
+		top: 300px;
+
+	}
+	.foot {
+		top: 460px;
+	}
+}
+
+/* under 1440px */
+@media only screen and (min-width: 1081px) and (max-width: 1440px) {
+	.imgsize {
+		width: 11%;
+		height: 140px;
+		left: 1.5%;
+		margin: 10px;
+	}
+
+	.description {
+		left: 15%;
+		font-size: 13pt;
+	}
+
+	.fontsize {
+		font-size: 17pt;
+	}
+
+	.body_container {
+		margin-top: 5%;
+		max-width: 98%;
+	}
+
+	.container {
+		top: 170px;
+	}
+
+	.container1 {
+		top: 340px;
+	}
+
+	.foot {
+		top: 510px;
+	}
+}
+
+/*  over 1440px*/
+@media only screen and (min-width: 1441px) {
+	.imgsize {
+		width: 11.5%;
+		height: 190px;
+		left: 1.5%;
+		margin: 10px;
+	}
+
+	.description {
+		left: 15%;
+		font-size: 15pt;
+	}
+
+	.fontsize {
+		font-size: 18pt;
+	}
+
+	.body_container {
+		margin-top: 4%;
+		max-width: 98%;
+	}
+
+	.container {
+		top: 235px;
+	}
+
+	.container1 {
+		top: 470px;
+	}
+
+	.foot {
+		top: 705px;
+	}
+}
