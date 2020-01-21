@@ -42,9 +42,10 @@ p a:active {
 
 p,h3 {
 	width: auto;
-	background: rgba(34, 34, 34, 0.7);
+	background: rgba(34, 34, 34, 1);
+	background: linear-gradient(90deg, rgba(34, 34, 34, 0.45) 0%,  rgba(34, 34, 34, 0.3) 40%, rgba(34, 34, 34, 0.28) 80%, rgba(34, 34, 34, 0.24) 100%);
 	padding: 8px;
-	border-radius: 32px;
+	border-radius: 8px;
 }
 
 /*under 425px*/
