@@ -1,5 +1,5 @@
-# end-of-term-project
-Our glorious end of term project
+# Blue Energy
+All about Blue Energy
 
 ---
 Please refer to the [Contribution Guidelines](CONTRIBUTING.md) before making any changes.
