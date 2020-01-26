@@ -6,7 +6,7 @@ form {
 	margin-right: 6%;
 	text-align: initial;
 	font-size: 16px;
-	color: #eeeeee;
+	color: rgb(238, 238, 238);
 }
 
 .formRow {
@@ -38,7 +38,7 @@ form {
 	margin-bottom: 10px;
 	font-size: 18px;
 	background-color: rgb(41, 128, 185);
-	color: #eeeeee;
+	color: rgb(238, 238, 238);
 	border-width: 0px;
 	cursor: pointer;
 }
