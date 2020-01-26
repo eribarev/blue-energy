@@ -1,0 +1,44 @@
+form {
+	background: rgba(34, 34, 34, 0.7);
+	padding: 1px;
+	border-radius: 32px;
+	margin-left: 6%;
+	margin-right: 6%;
+	text-align: initial;
+	font-size: 16px;
+	color: rgb(238, 238, 238);
+}
+
+.formRow {
+	margin-top: 12px;
+}
+
+.formRow p {
+	display: inline-block;
+	margin: 0px;
+	margin-right: 20px;
+	width: calc(50% - 20px);
+	text-align: right;
+}
+
+.formRow textarea {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: calc(90% - 4px);
+	height: 100px;
+	resize: none;
+}
+
+#submitBtn {
+	height: 40px;
+	width: 100px;
+	padding: 0px;
+	margin-left: calc(50% - 50px);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	background-color: rgb(41, 128, 185);
+	color: rgb(238, 238, 238);
+	border-width: 0px;
+	cursor: pointer;
+}
