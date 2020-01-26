@@ -33,7 +33,8 @@ body, html {
 
 @keyframes topLinkAni {
 	0% {
-		font-size: 0px;
+		font-size: 18px;
+		letter-spacing: initial;
 	}
 	100% {
 		font-size: 25px;
