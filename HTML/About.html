@@ -88,13 +88,14 @@
 						Use the contact form:
 					</p>
 					<form id="contactForm">
-						<select name="type">
+						<select name="type" onchange="textareaPlaceholderUpdate();">
 							<option value="Question">Question</option>
 							<option value="Suggestion">Suggestion</option>
 							<option value="Feedback">General Feedback</option>
 						</select> <br>
 						<input type="text" name="name" placeholder="Please enter your name"> <br>
 						<input type="text" name="subject" placeholder="Please enter a short subject"> <br>
+						<textarea name="bodytext" placeholder="Please enter your question here"></textarea> <br>
 
 						<input type="button" value="Submit" onclick="formsubmit();">
 					</form>
