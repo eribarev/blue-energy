@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<script src="../JavaScript/navdropdown.js"></script>
+	<script src="../JavaScript/form.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/about.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/form.css">
+	<link rel="icon" href="../Images/TabIcon.jpg" type="image/icon type">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>About & Contacts</title>
+</head>
+
+<body  class="imghold">
+	<!--Navbar-->
+	<div>
+		<nav class="navbar static" id="navbar">
+			<a href="index.html">Home</a>
+
+			<section class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Energy</button>
+
+				<section id="myDropdown" class="dropdown-content">
+					<a href="producing.html">Producing</a>
+					<a href="storing.html">Storing</a>
+					<a href="using.html">Using</a>
+				</section>
+			</section>
+
+			<a href="video.html">Video</a>
+			<a href="about.html" class = "active">About</a>
+		</nav>
+
+		<main class="body_container">
+			<header>
+				<h3>About The Band of Ocean:</h3>
+			</header>
+
+			<section>
+				<!--put a image of you (Emo)-->
+				<img class="imgsize" src="../Images/Emo.png" alt="image"></img>
+
+				<article class="description">
+					<p class="fontsize">Emo:</p>
+					<p>Cras ac sollicitudin lorem. Vestibulum vitae erat hendrerit,
+					aliquam neque eget, sollicitudin dui. Phasellus dignissim et justo ut dapibus. Sed sit amet gravida purus.
+					Etiam cursus in metus vestibulum varius. Aenean id erat neque. Vestibulum tortor nulla, rhoncus sed aliquam vel,
+					varius sed libero. Nulla facilisi.</p>
+				</article>
+			</section>
+
+			<section class="container">
+				<!--put a image of you (Boris)-->
+				<img class="imgsize" src="../Images/Boris.png" alt="image"></img>
+
+				<article class="description">
+					<p class="fontsize">Boris:</p>
+					<p >Cras ac sollicitudin lorem. Vestibulum vitae erat hendrerit,
+					aliquam neque eget, sollicitudin dui. Phasellus dignissim et justo ut dapibus. Sed sit amet gravida purus.
+					Etiam cursus in metus vestibulum varius. Aenean id erat neque. Vestibulum tortor nulla, rhoncus sed aliquam vel,
+					varius sed libero. Nulla facilisi.</p>
+				</article>
+			</section>
+
+			<section class="container1">
+				<!--put a image of you (Martin)-->
+				<img class="imgsize" src="../Images/Martin.png" alt="image"></img>
+
+				<article class="description">
+					<p class="fontsize">Martin:</p>
+					<p>Cras ac sollicitudin lorem. Vestibulum vitae erat hendrerit,
+					aliquam neque eget, sollicitudin dui. Phasellus dignissim et justo ut dapibus. Sed sit amet gravida purus.
+					Etiam cursus in metus vestibulum varius. Aenean id erat neque. Vestibulum tortor nulla, rhoncus sed aliquam vel,
+					varius sed libero. Nulla facilisi.</p>
+				</article>
+			</section>
+
+			<footer class="foot">
+				<hr/>
+				<h3>Contacts</h3>
+
+				<article><!--Ask the English Teacher for this-->
+					<p>
+						Use the contact form:
+					</p>
+					<form id="contactForm">
+						<div class="formRow">
+							<p>Type:</p>
+							<select name="type" onchange="textareaPlaceholderUpdate();">
+								<option value="Question">Question</option>
+								<option value="Suggestion">Suggestion</option>
+								<option value="Feedback">General Feedback</option>
+							</select>
+						</div>
+						<div class="formRow">
+							<p>Name:</p>
+							<input type="text" name="name" placeholder="Please enter your name" style="width: 120px;"> <br>
+						</div>
+						<div class="formRow">
+							<p>Subject:</p>
+							<input type="text" name="subject" placeholder="Please enter a short subject" style="width: 140px;"> <br>
+						</div>
+						<div class="formRow">
+							<textarea name="bodytext" placeholder="Please enter your question here"></textarea> <br>
+						</div>
+
+						<input type="button" id="submitBtn" value="Submit" onclick="formsubmit();">
+					</form>
+					<p>
+						Or contact us at: <a id="mailLink" href="mailto:blue.energy@codingburgas.bg" target="_blank">blue.energy@codingburgas.bg</a>
+					</p>
+				</article>
+			</footer>
+		</main>
+	</div>
+</body>
+</html>
