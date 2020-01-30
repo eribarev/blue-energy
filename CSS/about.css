@@ -17,6 +17,7 @@ width: auto;
 {
 	position: absolute;
 	top: auto;
+	height: auto;
 }
 
 .description{
@@ -71,8 +72,7 @@ header {
 /*under 425px*/
 @media only screen and (max-width: 424px) {
 	.imgsize {
-		width: 13%;
-		height: 75px;
+		width: 15%;
 		left: 1.5%;
 		margin: 10px;
 	}
@@ -107,8 +107,7 @@ header {
 /*under 768px*/
 @media only screen and (max-width: 767px) and (min-width: 425px) {
 	.imgsize {
-		width: 13%;
-		height: 90px;
+		width: 15%;
 		left: 1.5%;
 		margin: 10px;
 	}
@@ -143,8 +142,7 @@ header {
 /*under 1080px*/
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
 	.imgsize {
-		width: 11%;
-		height: 115px;
+		width: 13%;
 		left: 1.5%;
 		margin: 10px;
 	}
@@ -181,7 +179,6 @@ header {
 @media only screen and (min-width: 1081px) and (max-width: 1440px) {
 	.imgsize {
 		width: 11%;
-		height: 140px;
 		left: 1.5%;
 		margin: 10px;
 	}
@@ -217,7 +214,6 @@ header {
 @media only screen and (min-width: 1441px) {
 	.imgsize {
 		width: 11.5%;
-		height: 190px;
 		left: 1.5%;
 		margin: 10px;
 	}
