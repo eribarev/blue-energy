@@ -2,25 +2,23 @@ body, html {
 	height: 100%;
 }
 
-.imghold{
-background-blend-mode: lighten;
-background-image: url('../Images/background1.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-height: auto;
-width: auto;
-
+.imghold {
+	background-blend-mode: lighten;
+	background-image: url('../Images/background1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: auto;
+	width: auto;
 }
 
-.imgsize
-{
+.imgsize {
 	position: absolute;
 	top: auto;
 	height: auto;
 }
 
-.description{
+.description {
 	position: absolute;
 	top: auto;
 	float: left;
