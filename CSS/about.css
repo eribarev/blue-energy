@@ -3,7 +3,6 @@ body, html {
 }
 
 .imghold{
-position: absolute;
 background-blend-mode: lighten;
 background-image: url('../Images/background1.jpg');
 background-repeat: no-repeat;
