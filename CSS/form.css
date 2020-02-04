@@ -2,8 +2,6 @@ form {
 	background: rgba(34, 34, 34, 0.7);
 	padding: 1px;
 	border-radius: 32px;
-	margin-left: 6%;
-	margin-right: 6%;
 	text-align: initial;
 	font-size: 16px;
 	color: rgb(238, 238, 238);
@@ -42,3 +40,22 @@ form {
 	border-width: 0px;
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 568px) {
+	/*for when 6% margins would result in the form's width being less than 500px*/
+
+	form {
+		margin-left: 6%;
+		margin-right: 6%;
+	}
+}
+
+@media only screen and (min-width: 569px) {
+	/*effectively sets the max-width of the form to 500px while maintaining allignment*/
+
+	form {
+		width: 500px;
+		margin-left: calc(50% - 250px);
+	}
+}
+
