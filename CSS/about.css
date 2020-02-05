@@ -92,8 +92,13 @@ header {
 	.container {
 		top: 160px;
 	}
-	.foot {
+
+	.container1 {
 		top: 325px;
+	}
+
+	.foot {
+		top: 490px;
 	}
 }
 
@@ -122,8 +127,13 @@ header {
 	.container{
 		top: 160px;
 	}
-	.foot {
+
+	.container1 {
 		top: 325px;
+	}
+
+	.foot {
+		top: 490px;
 	}
 }
 
@@ -151,10 +161,14 @@ header {
 
 	.container {
 		top: 140px;
+	}
+
+	.container1 {
+		top: 300px;
 
 	}
 	.foot {
-		top: 300px;
+		top: 460px;
 	}
 }
 
@@ -183,8 +197,13 @@ header {
 	.container {
 		top: 170px;
 	}
-	.foot {
+
+	.container1 {
 		top: 340px;
+	}
+
+	.foot {
+		top: 510px;
 	}
 }
 
@@ -213,7 +232,12 @@ header {
 	.container {
 		top: 235px;
 	}
-	.foot {
+
+	.container1 {
 		top: 470px;
+	}
+
+	.foot {
+		top: 705px;
 	}
 }
