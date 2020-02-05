@@ -92,13 +92,8 @@ header {
 	.container {
 		top: 160px;
 	}
-
-	.container1 {
-		top: 325px;
-	}
-
 	.foot {
-		top: 490px;
+		top: 325px;
 	}
 }
 
@@ -127,13 +122,8 @@ header {
 	.container{
 		top: 160px;
 	}
-
-	.container1 {
-		top: 325px;
-	}
-
 	.foot {
-		top: 490px;
+		top: 325px;
 	}
 }
 
@@ -163,13 +153,8 @@ header {
 		top: 140px;
 
 	}
-
-	.container1 {
-		top: 300px;
-
-	}
 	.foot {
-		top: 460px;
+		top: 300px;
 	}
 }
 
@@ -198,13 +183,8 @@ header {
 	.container {
 		top: 170px;
 	}
-
-	.container1 {
-		top: 340px;
-	}
-
 	.foot {
-		top: 510px;
+		top: 340px;
 	}
 }
 
@@ -233,12 +213,7 @@ header {
 	.container {
 		top: 235px;
 	}
-
-	.container1 {
-		top: 470px;
-	}
-
 	.foot {
-		top: 705px;
+		top: 470px;
 	}
 }
