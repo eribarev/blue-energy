@@ -10,11 +10,22 @@ body, html {
 	margin: 0;
 	position: absolute;
 	background-blend-mode: lighten;
-	background-image: url('../Images/Energybgr1.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 100vw;
+}
+
+.imgproducing {
+	background-image: url('../Images/Energybgr1.jpg');
+}
+
+.imgstoring {
+	background-image: url('../Images/Energybgr2.jpg');
+}
+
+.imgtransmitting {
+	background-image: url('../Images/Energybgr3.jpg');
 }
 
 .ytvideo {
