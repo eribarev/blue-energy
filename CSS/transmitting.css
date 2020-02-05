@@ -22,7 +22,7 @@ body, html {
 	height: 500px;
 	width: 65%;
 	border: 1px solid white;
-	background: rgba(34, 34, 34, 0.7);
+	margin: 1%;
 }
 
 .title {
