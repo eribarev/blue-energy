@@ -8,7 +8,7 @@ function formsubmit() {
 	//generate mailto href
 	var mailtohref = "mailto:blue.energy@codingburgas.bg?";
 	mailtohref += "subject=" + type + ": " + subject;
-	mailtohref += "&body=" + escape(bodytext);
+	mailtohref += "&body=" + escape(bodytext) + escape("\n\n    - ") + name;
 
 	document.getElementById("mailLink").href = mailtohref;
 
