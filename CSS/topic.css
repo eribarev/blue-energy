@@ -1,3 +1,5 @@
+/*Common CSS file for all pages for a video on a topic*/
+
 body, html {
 	height: auto;
 	color: white;
@@ -12,8 +14,7 @@ body, html {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: auto;
-	width: auto;
+	width: 100vw;
 }
 
 .ytvideo {
@@ -21,9 +22,10 @@ body, html {
 	position: relative;
 	top: auto;
 	left: 0%;
-	height: 500px;
 	width: 65%;
+	height: 500px;
 	margin: 1%;
+	border: 1px solid white;
 }
 
 .title {
@@ -54,4 +56,37 @@ p {
 	padding: 1px;
 	margin-top: 3px;
 	border-radius: 32px;
+}
+
+/*under 425px*/
+@media only screen and (max-width: 424px) {
+	.ytvideo {
+		height: 250px;
+	}
+
+	.description {
+		font-size: 12pt;
+	}
+}
+
+/*under 765px*/
+@media only screen and (max-width: 767px)  and (min-width: 425px) {
+	.ytvideo {
+		height: 300px;
+	}
+
+	.description {
+		font-size: 15pt;
+	}
+}
+
+/*under 1080px*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	.ytvideo {
+		height: 350px;
+	}
+
+	.description {
+		font-size: 16pt;
+	}
 }
