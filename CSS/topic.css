@@ -56,17 +56,22 @@ body, html {
 }
 
 .description {
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.wip
+{
 	text-align: center;
 	margin-left: 18%;
 	margin-right: 18%;
 }
-
 p {
 	width: auto;
 	background: rgba(34, 34, 34, 0.7);
-	padding: 1px;
+	padding: 18px;
 	margin-top: 3px;
-	border-radius: 32px;
+	border-radius: 6px;
 }
 
 /*under 425px*/
