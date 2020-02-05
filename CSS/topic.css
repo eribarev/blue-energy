@@ -8,7 +8,6 @@ body, html {
 
 .imghold {
 	margin: 0;
-	position: fixed;
 	background-blend-mode: lighten;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
