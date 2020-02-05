@@ -54,12 +54,16 @@ article {
 		text-indent: 1.5%;
 	}
 
+	article *{
+		background: linear-gradient(90deg, rgba(255,255,255,0) 0%,rgba(247, 247, 247, 0.26) 5%, rgba(247,247,247,0.36) 35%, rgba(247, 247, 247, 0.26) 65%, rgba(255,255,255,0) 95%);
+	}
+
 .pdflink:link {
-	color: rgb(48, 48, 48);
+	color: rgb(0, 0, 0);
 }
 
 .pdflink:visited {
-	color: rgb(48, 48, 48);
+	color: rgb(0, 0, 0);
 }
 
 ::selection {
